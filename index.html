@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leaf & Lantern | Discover Your Next Favorite Book</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a href="#" class="brand">Leaf & Lantern</a>
+        <nav class="main-nav" aria-label="Primary">
+          <a href="#categories">Categories</a>
+          <a href="#bestsellers">Bestsellers</a>
+          <a href="#collections">Collections</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#newsletter">Newsletter</a>
+        </nav>
+        <button class="menu-btn" aria-label="Toggle menu">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Curated for Every Reader</p>
+            <h1>Discover Your Next Favorite Book</h1>
+            <p>
+              Explore handpicked titles, trending bestsellers, and cozy classics from
+              every genre—delivered with recommendations that feel personal.
+            </p>
+            <div class="hero-actions">
+              <a href="#bestsellers" class="btn btn-primary">Browse Bestsellers</a>
+              <a href="#categories" class="btn btn-secondary">Search Library</a>
+            </div>
+            <div class="hero-trust">
+              <span>⭐ 4.9/5 Reader Rating</span>
+              <span>✔ 15k+ Verified Reviews</span>
+            </div>
+          </div>
+          <div class="hero-visual" role="img" aria-label="A cozy stack of books and reader essentials"></div>
+        </div>
+      </section>
+
+      <section id="categories" class="section">
+        <div class="container">
+          <div class="section-title-wrap">
+            <h2>Featured Categories</h2>
+            <a href="#" class="text-link">View all categories</a>
+          </div>
+          <div class="categories-grid">
+            <a class="category-card" href="#">
+              <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=800&q=80" alt="Fiction books" />
+              <span>Fiction</span>
+            </a>
+            <a class="category-card" href="#">
+              <img src="https://images.unsplash.com/photo-1455885666463-9fb3be27f2e1?auto=format&fit=crop&w=800&q=80" alt="Non-fiction books" />
+              <span>Non-Fiction</span>
+            </a>
+            <a class="category-card" href="#">
+              <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=800&q=80" alt="Children's books" />
+              <span>Children</span>
+            </a>
+            <a class="category-card" href="#">
+              <img src="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=800&q=80" alt="Bestseller books" />
+              <span>Bestsellers</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="bestsellers" class="section soft-bg">
+        <div class="container">
+          <div class="section-title-wrap">
+            <h2>This Week's Bestsellers</h2>
+            <div class="carousel-controls">
+              <button class="carousel-btn" id="prevBtn" aria-label="Previous books">←</button>
+              <button class="carousel-btn" id="nextBtn" aria-label="Next books">→</button>
+            </div>
+          </div>
+          <div class="carousel-track" id="carouselTrack" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <h2>How It Works</h2>
+          <div class="steps-grid">
+            <article class="step">
+              <div class="step-icon">📚</div>
+              <h3>1. Browse</h3>
+              <p>Explore categories, personalized picks, and trend-driven lists.</p>
+            </article>
+            <article class="step">
+              <div class="step-icon">🛒</div>
+              <h3>2. Select</h3>
+              <p>Save favorites, compare editions, and pick your perfect format.</p>
+            </article>
+            <article class="step">
+              <div class="step-icon">☕</div>
+              <h3>3. Read & Enjoy</h3>
+              <p>Get your books quickly and dive into your next page-turner.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="collections" class="section">
+        <div class="container">
+          <div class="section-title-wrap">
+            <h2>New Releases & Curated Collections</h2>
+            <a href="#" class="text-link">See more collections</a>
+          </div>
+          <div class="collection-grid">
+            <a class="collection-card" href="#">
+              <img src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=900&q=80" alt="Modern fiction picks" />
+              <div>
+                <h3>Modern Fiction Picks</h3>
+                <p>Fresh stories everyone is talking about.</p>
+                <span>Explore</span>
+              </div>
+            </a>
+            <a class="collection-card" href="#">
+              <img src="https://images.unsplash.com/photo-1476275466078-4007374efbbe?auto=format&fit=crop&w=900&q=80" alt="Business and growth books" />
+              <div>
+                <h3>Growth & Business</h3>
+                <p>Books to sharpen your strategy and leadership.</p>
+                <span>Explore</span>
+              </div>
+            </a>
+            <a class="collection-card" href="#">
+              <img src="https://images.unsplash.com/photo-1513001900722-370f803f498d?auto=format&fit=crop&w=900&q=80" alt="Young reader collection" />
+              <div>
+                <h3>Young Reader Collection</h3>
+                <p>Colorful adventures for curious young minds.</p>
+                <span>Explore</span>
+              </div>
+            </a>
+            <a class="collection-card" href="#">
+              <img src="https://images.unsplash.com/photo-1496104679561-38b974b86f40?auto=format&fit=crop&w=900&q=80" alt="Wellness and mindful reading" />
+              <div>
+                <h3>Mindful Reading</h3>
+                <p>Calm, reflective titles for intentional living.</p>
+                <span>Explore</span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="reviews" class="section soft-bg">
+        <div class="container">
+          <h2>Loved by Readers Everywhere</h2>
+          <div class="social-proof-grid">
+            <article class="review-card">
+              <p>“I found three new favorite authors in one month. The recommendations are spot on!”</p>
+              <h3>— Priya M.</h3>
+              <span>★★★★★ • Verified Buyer</span>
+            </article>
+            <article class="review-card">
+              <p>“Beautiful interface, easy checkout, and my books arrived faster than expected.”</p>
+              <h3>— Jordan T.</h3>
+              <span>★★★★★ • Verified Buyer</span>
+            </article>
+            <article class="review-card">
+              <p>“The kids section is excellent. My daughter now asks for story time every night.”</p>
+              <h3>— Elena R.</h3>
+              <span>★★★★☆ • Verified Buyer</span>
+            </article>
+          </div>
+          <div class="trust-row">
+            <p>Trusted by 50,000+ readers</p>
+            <p>Secure checkout</p>
+            <p>Verified review system</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="newsletter" class="section">
+        <div class="container newsletter-box">
+          <div>
+            <p class="eyebrow">Stay in the loop</p>
+            <h2>Get 10% Off Your First Order</h2>
+            <p>Join our newsletter for new arrivals, curated lists, and limited-time offers.</p>
+          </div>
+          <form class="newsletter-form">
+            <label for="email" class="sr-only">Email address</label>
+            <input id="email" type="email" placeholder="Enter your email" required />
+            <button type="submit" class="btn btn-primary">Subscribe</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <a href="#" class="brand">Leaf & Lantern</a>
+        <nav aria-label="Footer">
+          <a href="#">About</a>
+          <a href="#categories">Categories</a>
+          <a href="#">Contact</a>
+          <a href="#">FAQ</a>
+          <a href="#">Terms</a>
+        </nav>
+        <div class="socials" aria-label="Social links">
+          <a href="#" aria-label="Instagram">◎</a>
+          <a href="#" aria-label="X">𝕏</a>
+          <a href="#" aria-label="Facebook">◉</a>
+          <a href="#" aria-label="YouTube">▷</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
